@@ -1,0 +1,74 @@
+.container {
+    padding: 0 14px;
+    color: #FFF;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 14px;
+    color: #f34e2a;
+    font-style: italic;
+}
+
+
+.content {
+    max-width: 420px;
+    background-color: #0f0f0f;
+    margin: 24px auto;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.content p {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.content p {
+    margin-bottom: 16px;
+}
+
+.profit {
+    color: #12f98a;
+}
+
+.loss {
+    color: #F91257;
+}
+
+.container h1 {
+    margin-top: 24px;
+    margin-bottom: 14px;
+    color: #FFF;
+}
+
+.container a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    background-color: #575757;
+    padding: 8px 24px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.container a:hover {
+    transform: scale(1.08);
+    background-color: #30beff;
+}
+
+
+.container .btnLink {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    background-color: #575757;
+    padding: 8px 24px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 180px;
+}
